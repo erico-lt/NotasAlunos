@@ -27,7 +27,7 @@ public class VerificacaoDeNotas{
             double faltou = (60.00 - aluno.getSomaNotas());            
             System.out.printf("Nome Aluno: %s \n", aluno.getNome());
             System.out.printf("Sexo: %s \n", aluno.getSexo());
-            System.out.printf("Final Grade: %.2f \n", aluno.getSomaNotas());
+            System.out.printf("Nota Final: %.2f \n", aluno.getSomaNotas());
             System.out.printf("Aprovado/Reprovado: %s \n", this.aprovado);
             System.out.printf("Faltou: %.2f \n", faltou);
         }
