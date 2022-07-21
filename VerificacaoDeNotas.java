@@ -10,16 +10,16 @@ public class VerificacaoDeNotas{
         return aprovado;
     }
    
+    public void setAprovado(boolean aprovado) {
+        this.aprovado = aprovado;
+    }
+
     public void setAluno(Aluno aluno){
        this.aluno = aluno;
     }
 
     public Aluno getAluno(){
-       return this.aluno;
-    }
-
-    public void setAprovado(boolean aprovado) {
-        this.aprovado = aprovado;
+       return this.aluno
     }
 
     //Implementar metods para mostrar se o aluno foi aprovado ou reprovado
