@@ -9,6 +9,14 @@ public class VerificacaoDeNotas{
     public boolean getAprovado() {
         return aprovado;
     }
+   
+    public void setAluno(Aluno aluno){
+       this.aluno = aluno;
+    }
+
+    public Aluno getAluno(){
+       return this.aluno;
+    }
 
     public void setAprovado(boolean aprovado) {
         this.aprovado = aprovado;
